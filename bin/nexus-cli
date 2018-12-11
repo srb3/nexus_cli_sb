@@ -1,0 +1,10 @@
+#!/usr/bin/env ruby
+$:.push File.expand_path("../../lib", __FILE__)
+require 'nexus_cli'
+
+begin
+  NexusCli::Cli.start
+rescue NexusCli::NexusCliError => e
+  NexusCli.ui.say e.message, :red
+  exit e.status_code
+end

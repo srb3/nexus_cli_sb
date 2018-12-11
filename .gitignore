@@ -1,0 +1,11 @@
+.DS_Store
+.rake_tasks~
+.project
+.buildpath
+tmp/
+pkg/
+*.gem
+global_settings.json
+Gemfile.lock
+doc/
+.yardoc/
