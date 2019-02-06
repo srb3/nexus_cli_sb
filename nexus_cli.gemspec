@@ -17,7 +17,7 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib"]
 
   s.add_dependency 'thor'
-  s.add_dependency 'httpclient', '= 2.2.5'
+  s.add_dependency 'httpclient', '~> 2.8.0'
   s.add_dependency 'json'
   s.add_dependency 'highline'
   s.add_dependency 'jsonpath'
